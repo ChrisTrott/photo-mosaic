@@ -17,8 +17,8 @@ class Grid {
 
   process() {
     Render.clearMosaic();
-    Render.setupMosaic(rows, cols);
-    processRow();
+    Render.setupMosaic(this.tiles.length, this.tiles[0].length);
+    this.processRow();
   }
 
   processRow() {

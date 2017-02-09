@@ -1,4 +1,7 @@
 .mosaic-row {
-  display: inline-block;
   white-space: nowrap;
+}
+
+.mosaic-tile {
+  display: inline-block;
 }
