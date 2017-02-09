@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="js/mosaic.js"></script>
-    <script type="text/javascript" src="js/client.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Mosaic</title>
   </head>
   <body>
-    <!-- Edit me. -->
+    <h1>Mosaic Generator</h1>
+    <div id="file-select-area">
+    	<label for="fileselect">Please select an image:</label>
+    	<input type="file" id="file-select" name="fileselect" />
+      <input type='button' id='btn-load-image' value='Load' />
+    </div>
+    <h2>Original</h2>
+    <canvas id="image-preview"></canvas>
+    <h2>Mosaic Render</h2>
+    <div id="mosaic-area"></div>
+    <script src="./js/client.bundle.js"></script>
   </body>
 </html>

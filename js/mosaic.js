@@ -9,3 +9,4 @@ if (exports) {
   exports.TILE_HEIGHT = TILE_HEIGHT;
 }
 
+export { TILE_WIDTH, TILE_HEIGHT };

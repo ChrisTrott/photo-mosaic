@@ -1,0 +1,4 @@
+.mosaic-row {
+  display: inline-block;
+  white-space: nowrap;
+}
